@@ -4,9 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+<<<<<<< HEAD
     "dev": "npx concurrently \"tsx server.ts\" \"vite\"",
     "backend": "tsx server.ts",
     "frontend": "vite",
+=======
+    "dev": "tsx server.ts",
+>>>>>>> feb606e0529113c34ceeaa261b2ea09b46d0bfeb
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
@@ -22,7 +26,10 @@
     "@vitejs/plugin-react": "^5.0.4",
     "axios": "^1.15.2",
     "clsx": "^2.1.1",
+<<<<<<< HEAD
     "concurrently": "^9.2.1",
+=======
+>>>>>>> feb606e0529113c34ceeaa261b2ea09b46d0bfeb
     "dotenv": "^17.2.3",
     "express": "^4.21.2",
     "leaflet": "^1.9.4",
